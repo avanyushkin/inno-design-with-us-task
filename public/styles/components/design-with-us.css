@@ -1,0 +1,190 @@
+.design-with-us-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  width: 100%;
+  background-color: #e8f3f1;
+}
+
+.design-with-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.design-with-us-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+
+.design-with-us-title {
+  font-family: "Inter", Helvetica;
+  font-weight: 900;
+  color: rgba(25, 26, 21, 1);
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.design-with-us-description {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.6;
+  max-width: 100%;
+}
+
+.design-with-us-image {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+.icon-lightning {
+  top: 15%;
+  left: 5%;
+  width: 50px;
+  z-index: 2;
+}
+
+.icon-chart {
+  top: 5%;
+  right: 10%;
+  width: 45px;
+  z-index: 2;
+}
+
+.icon-cactus {
+  bottom: 20%;
+  right: 5%;
+  width: 60px;
+  z-index: 2;
+}
+
+.icon-palette {
+  bottom: 10%;
+  right: 0;
+  width: 50px;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .design-with-us-section {
+    padding: 80px 40px;
+  }
+
+  .design-with-us-content {
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .design-with-us-text {
+    width: 50%;
+  }
+
+  .design-with-us-title {
+    font-size: 56px;
+    letter-spacing: -1.5px;
+  }
+
+  .design-with-us-description {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .design-with-us-image {
+    width: 50%;
+    max-width: 450px;
+  }
+
+  .icon-lightning {
+    width: 60px;
+  }
+
+  .icon-chart {
+    width: 50px;
+  }
+
+  .icon-cactus {
+    width: 70px;
+  }
+
+  .icon-palette {
+    width: 55px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .design-with-us-section {
+    padding: 100px 80px;
+  }
+
+  .design-with-us-content {
+    gap: 70px;
+    max-width: 100%;
+  }
+
+  .design-with-us-text {
+    width: 48%;
+  }
+
+  .design-with-us-title {
+    font-size: 68px;
+    letter-spacing: -2px;
+  }
+
+  .design-with-us-description {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 480px;
+  }
+
+  .design-with-us-image {
+    width: 52%;
+    max-width: 520px;
+  }
+
+  .icon-lightning {
+    width: 65px;
+  }
+
+  .icon-chart {
+    width: 55px;
+  }
+
+  .icon-cactus {
+    width: 75px;
+  }
+
+  .icon-palette {
+    width: 60px;
+  }
+}
