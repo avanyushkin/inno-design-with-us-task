@@ -1,0 +1,25 @@
+{
+  "name": "inno-design-with-us-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avanyushkin/inno-design-with-us-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/avanyushkin/inno-design-with-us-task/issues"
+  },
+  "homepage": "https://github.com/avanyushkin/inno-design-with-us-task#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
