@@ -188,3 +188,67 @@
     width: 60px;
   }
 }
+
+@media (min-width: 1440px) {
+  .design-with-us-section {
+    padding: 120px 156px;
+  }
+
+  .design-with-us-content {
+    width: 1120px;
+    margin: 0 auto;
+    gap: 100px;
+  }
+
+  .design-with-us-text {
+    width: 480px;
+    flex-shrink: 0;
+  }
+
+  .design-with-us-title {
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1.00;
+  }
+
+  .design-with-us-description {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 460px;
+  }
+
+  .design-with-us-image {
+    width: 408px;
+    height: 526px;
+    max-width: 408px;
+    flex-shrink: 0;
+  }
+
+  .icon-lightning {
+    top: 15%;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-chart {
+    top: 5%;
+    right: 10%;
+    width: 60px;
+  }
+
+  .icon-cactus {
+    bottom: 20%;
+    right: 5%;
+    width: 70px;
+    height: 195px;
+  }
+
+  .icon-palette {
+    bottom: 10%;
+    right: 0;
+    width: 50px;
+    height: 50px;
+  }
+}
