@@ -71,6 +71,7 @@
   border-radius: 6px;
   overflow: hidden;
   position: relative;
+  color: rgba(53, 53, 53, 1);
 }
 
 .image-placeholder {
@@ -148,17 +149,20 @@
   }
 
   .hero-title {
+    font-weight: 600;
     font-size: 48px;
   }
 
   .hero-description {
     width: 513px;
+    height: 286px;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 160%;
   }
 
   .hero-link {
     font-size: 16px;
+    line-height: 100%;
   }
 
   .hero-image {
