@@ -131,3 +131,38 @@
     line-height: 25px;
   }
 }
+
+@media (min-width: 1440px) {
+  .hero-section {
+    padding: 120px 156px;
+    gap: 40px;
+  }
+
+  .hero-content {
+    max-width: 1127px;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    width: 544px;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .hero-description {
+    width: 513px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .hero-link {
+    font-size: 16px;
+  }
+
+  .hero-image {
+    width: 543px;
+    height: 424px;
+  }
+}
