@@ -102,3 +102,40 @@
     flex-shrink: 0;
   }
 }
+
+@media (min-width: 1440px) {
+  .products-section {
+    padding: 80px 0;
+  }
+
+  .products__row {
+    gap: 40px;
+  }
+
+  .products__col {
+    gap: 40px;
+  }
+
+  .products__card {
+    padding: 32px;
+    border-radius: 16px;
+  }
+
+  .products__title {
+    font-size: 22px;
+  }
+
+  .products__card--analytics,
+  .products__card--event {
+    width: 545px;
+  }
+
+  .products__col .products__card {
+    width: 340px;
+  }
+
+  .products__image {
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+}
