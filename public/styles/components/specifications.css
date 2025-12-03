@@ -117,3 +117,47 @@
     font-size: 16px;
   }
 }
+
+@media (min-width: 1440px) {
+  .specifications-section {
+    padding: 80px 156px;
+    gap: 40px;
+  }
+
+  .section-title {
+    font-size: 48px;
+    line-height: 100%;  
+  }
+
+  .specifications-list {
+    width: 1128px;
+    height: 408px;
+    margin: 0 auto;
+  }
+
+  .specification-item {
+    gap: 40px;
+    padding: 40px 0;
+  }
+
+  .spec-label {
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: bold;
+  }
+
+  .spec-content {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
+  .spec-link {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+  }
+}
