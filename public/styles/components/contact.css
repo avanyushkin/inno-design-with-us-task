@@ -257,3 +257,98 @@
     font-size: 16px;
   }
 }
+
+@media (min-width: 1440px) {
+  .contact-section {
+    padding: 80px 154px;
+    gap: 80px;
+  }
+
+  .section-title-white {
+    font-size: 48px;
+  }
+
+  .contact-container {
+    width: 1128px;
+    margin: 0 auto;
+  }
+
+  .section-title-white {
+    font-size: 48px;
+  }
+
+  .contact-content {
+    gap: 40px;
+  }
+
+  .contact-form-wrapper {
+    width: 605px;
+    padding: 0 40px 0 0;
+    gap: 40px;
+  }
+
+  .form-header {
+    width: 605px;
+    gap: 16px;
+  }
+
+  .form-title {
+    font-size: 24px;
+  }
+
+  .form-description {
+    width: 488px;
+    font-size: 16px;
+  }
+
+  .contact-form {
+    gap: 40px;
+  }
+
+  .form-row {
+    gap: 32px;
+  }
+
+  .form-group {
+    gap: 32px;
+  }
+
+  .form-group-full {
+    gap: 32px;
+  }
+
+  .form-label {
+    font-size: 16px;
+  }
+
+  .contact-info {
+    gap: 40px;
+  }
+
+  .contact-method {
+    gap: 16px;
+  }
+
+  .contact-method-title {
+    font-size: 24px;
+  }
+
+  .contact-method-description {
+    font-size: 16px;
+  }
+
+  .contact-method-value {
+    font-size: 16px;
+  }
+
+  .contact-image {
+    width: 1128px;
+    height: 541px;
+  }
+
+  .btn-primary {
+    width: 193px;
+    height: 56px;
+    border-radius: 1000px;
+  }
+}
