@@ -1,0 +1,141 @@
+.products-section {
+  padding: 40px 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Inter", Helvetica;
+}
+
+.products__header {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.products__row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.products__col {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.products__card {
+  background: #f5f6f7;
+  border-radius: 14px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.products__image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.products__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.products__count {
+  font-size: 14px;
+  color: #777;
+  margin-top: 6px;
+}
+
+@media (min-width: 768px) {
+  .products-section {
+    padding: 60px 40px;
+  }
+
+  .products__header {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .products__row {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 32px;
+  }
+
+  .products__col {
+    flex: 1;
+  }
+
+  .products__card--large {
+    height: 100%;
+  }
+
+  .products__card {
+    padding: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .products-section {
+    padding: 70px 60px;
+  }
+
+  .products__card {
+    padding: 28px;
+  }
+
+  .products__title {
+    font-size: 20px;
+  }
+
+  .products__count {
+    font-size: 15px;
+  }
+
+  .products__card--analytics, .products__card--event {
+    max-width: 420px;
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .products-section {
+    padding: 80px 0;
+  }
+
+  .products__row {
+    gap: 40px;
+  }
+
+  .products__col {
+    gap: 40px;
+  }
+
+  .products__card {
+    padding: 32px;
+    border-radius: 16px;
+  }
+
+  .products__title {
+    font-size: 22px;
+  }
+
+  .products__card--analytics,
+  .products__card--event {
+    width: 545px;
+  }
+
+  .products__col .products__card {
+    width: 340px;
+  }
+
+  .products__image {
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+}
