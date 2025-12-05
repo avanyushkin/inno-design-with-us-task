@@ -2,6 +2,9 @@
 
 A responsive interior design website built with HTML and CSS, featuring modern design elements and fully responsive layouts.
 
+## Live Demo
+Experience the website online: [Interior Design Website](https://inno-design-with-us-task.onrender.com/)
+
 ## Features Implemented
 
 - Responsive Design: Fully responsive across mobile, tablet, and desktop breakpoints
@@ -35,3 +38,20 @@ node server.js
 ```bash
 http://localhost:3000
 ```
+
+## Quality Assurance
+
+### Lighthouse Performance Report
+
+<img width="585" height="759" alt="image" src="https://github.com/user-attachments/assets/b5ed0829-5856-43eb-9a6e-9697ad3d0b80" />
+
+- Performance: 99
+- Accessibility: 88  
+- Best Practices: 100
+- SEO: 91
+  
+### HTML Validation
+
+<img width="2880" height="4512" alt="validator" src="https://github.com/user-attachments/assets/661bc588-54cb-48f0-8045-c4559ba38311" />
+
+The website passes W3C HTML validation without errors or warnings.
