@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="stylesheet" href="./styles/main.css"> -->
-   <link rel="stylesheet" href="./bundle.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="./bundle.css">
+  <title>Design Interior</title>
 </head>
 
 <body>
@@ -14,19 +14,20 @@
     <header class="header">
       <div class="header__content">
         <nav class="nav">
-          <a href="#" class="nav__link">Home</a>
-          <a href="#" class="nav__link">Products</a>
-          <a href="#" class="nav__link">Specifications</a>
-          <a href="#" class="nav__link">Statistics</a>
-          <a href="#" class="nav__link">Contact us</a>
+          <a href="#design-with-us" class="nav__link">Home</a>
+          <a href="#products" class="nav__link">Products</a>
+          <a href="#specifications" class="nav__link">Specifications</a>
+          <a href="#team" class="nav__link">Statistics</a>
+          <a href="#contact" class="nav__link">Contact us</a>
         </nav>
         <div class="header__actions">
           <button class="search-btn">Search</button>
-          <button class="btn-primary">Contact us</button>
+          <button id="scrollToContact" class="btn-primary">Contact us</button>
         </div>
       </div>
     </header>
-    <section class="design-with-us">
+    
+    <section id="design-with-us" class="design-with-us">
       <div class="design-with-us__content">
         <div class="design-with-us__text">
           <h2 class="design-with-us__title">DESIGN<br>WITH US</h2>
@@ -35,7 +36,7 @@
             masterpiece of style and functionality. Dive into a world where every corner whispers sophistication 
             and every detail speaks volumes about your unique taste.
           </p>
-          <button class="btn-primary">Create request</button>
+          <button id="scrollToContactFromHero" class="btn-primary">Create request</button>
         </div>
       </div>
       <div class="design-with-us__image">
@@ -46,6 +47,7 @@
         <img src="./images/first-section/graph-yellow.svg" loading="lazy" alt="Palette Icon" class="design-with-us__icon design-with-us__icon--palette" />
       </div>
     </section>
+    
     <section class="hero">
         <div class="hero__content">
           <div class="hero__text">
@@ -58,7 +60,7 @@
               your personality and aspirations. Whether you're seeking minimalist chic, cozy comfort, or extravagant
               opulence, we have the expertise to bring your vision to life.
             </p>
-            <a href="#" class="hero__link">Learn more</a>
+            <a href="#specifications" class="hero__link">Learn more</a>
           </div>
           <div class="hero__image">
             <div class="hero__image-placeholder"></div>
@@ -66,6 +68,7 @@
           </div>
         </div>
       </section>
+    
     <section class="support">
         <div class="support__content">
           <div class="support__info">
@@ -129,7 +132,8 @@
           </div>
         </div>
       </section>
-    <section class="products">
+    
+    <section id="products" class="products">
       <h2 class="products__header">Products and services</h2>
 
       <div class="products__row">
@@ -181,33 +185,34 @@
       </div>
 
     </section>
-    <section class="specifications">
+    
+    <section id="specifications" class="specifications">
         <h2 class="specifications__title">Specifications</h2>
         <div class="specifications__list">
           <div class="specifications__item">
             <div class="specifications__label">Digital specifications</div>
             <div class="specifications__content">Specifications</div>
-            <a href="#" class="specifications__link">Learn more</a>
+            <a href="#contact" class="specifications__link">Learn more</a>
           </div>
           <div class="specifications__item">
             <div class="specifications__label">Digital specifications</div>
             <div class="specifications__content">Specifications</div>
-            <a href="#" class="specifications__link">Learn more</a>
+            <a href="#contact" class="specifications__link">Learn more</a>
           </div>
           <div class="specifications__item">
             <div class="specifications__label">Digital specifications</div>
             <div class="specifications__content">Specifications</div>
-            <a href="#" class="specifications__link">Learn more</a>
+            <a href="#contact" class="specifications__link">Learn more</a>
           </div>
           <div class="specifications__item">
             <div class="specifications__label">Digital specifications</div>
             <div class="specifications__content">Specifications</div>
-            <a href="#" class="specifications__link">Learn more</a>
+            <a href="#contact" class="specifications__link">Learn more</a>
           </div>
         </div>
       </section>
 
-    <section class="team">
+    <section id="team" class="team">
       <h2 class="team__title">Our team</h2>
       <div class="team__grid">
         <div class="team__member">
@@ -253,10 +258,10 @@
           </div>
         </div>
       </div>
-      <button class="btn-primary">Show all contacts</button>
+      <button id="scrollToContactFromTeam" class="btn-primary">Show all contacts</button>
    </section>
   
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="contact__container">
         <h2 class="contact__title">Get in touch</h2>
         <div class="contact__content">
@@ -344,10 +349,10 @@
       <div class="footer__column">
         <div class="footer__heading">What we do</div>
         <nav class="footer__nav">
-          <a href="#" class="footer__link">About us</a>
-          <a href="#" class="footer__link">Our realizacje</a>
-          <a href="#" class="footer__link">FAQ</a>
-          <a href="#" class="footer__link">Contact</a>
+          <a href="#design-with-us" class="footer__link">About us</a>
+          <a href="#products" class="footer__link">Our realizacje</a>
+          <a href="#specifications" class="footer__link">FAQ</a>
+          <a href="#contact" class="footer__link">Contact</a>
         </nav>
       </div>
       <div class="footer__column">
@@ -364,6 +369,8 @@
     </div>
   </footer>
 </div>
+
+<script src="./scripts/navigation.js"></script>
 </body>
 
 </html>
