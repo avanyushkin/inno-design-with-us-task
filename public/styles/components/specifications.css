@@ -1,4 +1,4 @@
-.specifications-section {
+.specifications {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -8,21 +8,21 @@
   background-color: rgba(249, 248, 254, 1);
 }
 
-.section-title {
+.specifications__title {
   font-family: "Inter", Helvetica;
   font-weight: 700;
   font-size: 30px;
   font-style: bold;
 }
 
-.specifications-list {
+.specifications__list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
 }
 
-.specification-item {
+.specifications__item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -32,7 +32,7 @@
   border-top: 1px solid rgba(53, 53, 53, 1);
 }
 
-.spec-label {
+.specifications__label {
   font-size: 16px;
   line-height: normal;
   font-family: "Inter", Helvetica;
@@ -41,7 +41,7 @@
   letter-spacing: 0;
 }
 
-.spec-content {
+.specifications__content {
   font-weight: 400;
   color: rgba(0, 0, 0, 1);
   font-size: 14px;
@@ -50,7 +50,7 @@
   line-height: 100%;
 }
 
-.spec-link {
+.specifications__link {
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: rgba(0, 0, 0, 1);
@@ -61,100 +61,100 @@
   transition: opacity 0.3s ease;
 }
 
-.spec-link:hover {
+.specifications__link:hover {
   opacity: 0.7;
 }
 
 @media (min-width: 768px) {
-  .specifications-section {
+  .specifications {
     padding: 60px 40px;
     gap: 32px;
   }
 
-  .specification-item {
+  .specifications__item {
     flex-direction: row;
     align-items: center;
     gap: 32px;
     padding: 32px 0;
   }
 
-  .spec-label {
+  .specifications__label {
     width: 200px;
     flex-shrink: 0;
   }
 
-  .spec-content {
+  .specifications__content {
     flex: 1;
     font-size: 15px;
   }
 
-  .spec-link {
+  .specifications__link {
     font-size: 15px;
   }
 }
 
 @media (min-width: 1024px) {
-  .specifications-section {
+  .specifications {
     padding: 70px 80px;
     gap: 36px;
   }
 
-  .section-title {
+  .specifications__title {
     font-size: 35px;
   }
 
-  .specification-item {
+  .specifications__item {
     gap: 36px;
     padding: 36px 0;
   }
 
-  .spec-label {
+  .specifications__label {
     width: 220px;
     font-size: 18px;
   }
 
-  .spec-content, .spec-link {
+  .specifications__content, .specifications__link {
     font-size: 16px;
   }
 }
 
 @media (min-width: 1440px) {
-  .specifications-section {
+  .specifications {
     padding: 80px 156px;
     gap: 40px;
   }
 
-  .section-title {
+  .specifications__title {
     font-size: 48px;
     line-height: 100%;  
   }
 
-  .specifications-list {
+  .specifications__list {
     width: 1128px;
     height: 408px;
     margin: 0 auto;
   }
 
-  .specification-item {
+  .specifications__item {
     gap: 40px;
     padding: 40px 0;
   }
 
-  .spec-label {
+  .specifications__label {
     width: fit-content;
     font-size: 18px;
     font-weight: 700;
     font-style: bold;
   }
 
-  .spec-content {
+  .specifications__content {
     flex: 1;
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
   }
 
-  .spec-link {
+  .specifications__link {
     width: fit-content;
     font-size: 16px;
     font-weight: 400;
