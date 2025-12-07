@@ -90,3 +90,20 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+const contactForm = document.querySelector('.contact__form');
+if (contactForm) {
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const formData = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      city: document.getElementById('city').value,
+      phone: document.getElementById('phone').value,
+      message: document.getElementById('message').value
+    };
+    
+    contactForm.reset();
+  });
+}
