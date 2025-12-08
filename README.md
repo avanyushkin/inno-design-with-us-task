@@ -3,7 +3,7 @@
 A responsive interior design website built with HTML and CSS, featuring modern design elements and fully responsive layouts.
 
 ## Live Demo
-Experience the website online: [Interior Design Website](https://inno-design-with-us-task.onrender.com/)
+Experience the website online: [Interior Design Website](https://inno-design-with-us.onrender.com)
 
 ## Features Implemented
 
