@@ -36,13 +36,13 @@
   font-size: 40px;
   font-weight: 600;
   max-width: 545px;
-  font-family: "Inter", Helvetica;
-  color: rgba(25, 26, 21, 1);
+  font-family: var(--font-family-inter);
+  color: var(--color-text-primary);
 }
 
 .support__description {
   font-size: 16px;
-  color: rgba(151, 151, 151, 1);
+  color: var(--color-text-gray);
 }
 
 .support__ratings {
@@ -76,9 +76,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 400;
-  color: rgba(25, 26, 21, 1);
+  color: var(--color-text-primary);
   font-size: 16px;
   letter-spacing: 0;
   line-height: normal;
@@ -89,9 +89,9 @@
 }
 
 .support__score-divider {
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 400;
-  color: rgba(25, 26, 21, 1);
+  color: var(--color-text-primary);
   font-size: 16px;
   letter-spacing: 0;
 }
@@ -104,9 +104,9 @@
   position: absolute;
   top: 40px;
   left: 0;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 500;
-  color: rgba(151, 151, 151, 1);
+  color: var(--color-text-gray);
   font-size: 16px;
   letter-spacing: 0;
   line-height: normal;
@@ -131,9 +131,9 @@
   top: 47px;
   left: 70px;
   right: 10px;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 500;
-  color: rgba(151, 151, 151, 1);
+  color: var(--color-text-gray);
   font-size: 14px;
   letter-spacing: 0;
   line-height: 24px;
@@ -162,9 +162,9 @@
   position: absolute;
   top: 3px;
   left: 70px;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 700;
-  color: rgba(25, 26, 21, 1);
+  color: var(--color-text-primary);
   font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
@@ -245,7 +245,7 @@
   .support__title {
     font-size: 48px;
     font-weight: 600;
-    color: rgba(25, 26, 21, 1);
+    color: var(--color-text-primary);
     line-height: 100%;
     letter-spacing: 0%;
     width: 545px;

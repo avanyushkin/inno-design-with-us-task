@@ -5,12 +5,12 @@
   gap: 40px;
   padding: 40px 20px;
   width: 100%;
-  background-color: rgba(22, 28, 40, 1);
+  background-color: var(--color-dark-bg);
 }
 
 .contact__title {
-  color: rgba(255, 255, 255, 1);
-  font-family: "Inter", Helvetica;
+  color: #ffffff;
+  font-family: var(--font-family-inter);
   font-weight: 600;
   font-size: 40px;
 }
@@ -39,7 +39,7 @@
   padding: 0 0 32px 0;
   width: 100%;
   border-right: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  border-bottom: 1px solid #ffffff;
 }
 
 .contact__form-header {
@@ -51,9 +51,9 @@
 }
 
 .contact__form-title {
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 600;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
@@ -62,9 +62,9 @@
 .contact__form-description {
   width: 100%;
   font-weight: 400;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   font-size: 14px;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   letter-spacing: 0;
   line-height: normal;
 }
@@ -104,9 +104,9 @@
 .contact__form-label {
   width: 100%;
   font-weight: 400;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   font-size: 14px;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   letter-spacing: 0;
   line-height: normal;
 }
@@ -117,19 +117,19 @@
   background: transparent;
   border: none;
   border-bottom: 1px solid #c3c3c3;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-size: 14px;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   outline: none;
   transition: border-color 0.3s ease;
 }
 
 .contact__form-input::placeholder {
-  color: rgba(195, 195, 195, 0.7);
+  color: var(--color-text-placeholder);
 }
 
 .contact__form-input:focus {
-  border-bottom-color: rgba(84, 189, 149, 1);
+  border-bottom-color: var(--color-primary);
 }
 
 .contact__form-textarea {
@@ -138,9 +138,9 @@
   background: transparent;
   border: none;
   border-bottom: 1px solid #c3c3c3;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-size: 14px;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   outline: none;
   resize: vertical;
   min-height: 60px;
@@ -148,11 +148,11 @@
 }
 
 .contact__form-textarea::placeholder {
-  color: rgba(195, 195, 195, 0.7);
+  color: var(--color-text-placeholder);
 }
 
 .contact__form-textarea:focus {
-  border-bottom-color: rgba(84, 189, 149, 1);
+  border-bottom-color: var(--color-primary);
 }
 
 .contact__form-actions {
@@ -180,9 +180,9 @@
 }
 
 .contact__method-title {
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 600;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
@@ -190,9 +190,9 @@
 
 .contact__method-description {
   width: 100%;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 400;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   font-size: 14px;
   letter-spacing: 0;
   line-height: normal;
@@ -201,8 +201,8 @@
 .contact__method-value {
   width: 100%;
   font-weight: 700;
-  font-family: "Inter", Helvetica;
-  color: rgba(255, 255, 255, 1);
+  font-family: var(--font-family-inter);
+  color: #ffffff;
   font-size: 14px;
   letter-spacing: 0;
   line-height: normal;
@@ -215,7 +215,7 @@
   height: 300px;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #ffffff;
   border-radius: 6px;
   overflow: hidden;
   position: relative;

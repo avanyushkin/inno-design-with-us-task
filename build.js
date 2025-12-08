@@ -11,6 +11,7 @@ const files = [
   'public/styles/components/specifications.css',
   'public/styles/components/support.css',
   'public/styles/components/team.css',
+  'public/styles/components/variables.css',
 
   'public/styles/components/main.css'
 ]

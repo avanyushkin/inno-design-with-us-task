@@ -2,7 +2,7 @@
   padding: 40px 20px;
   max-width: 1440px;
   margin: 0 auto;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
 }
 
 .products__header {

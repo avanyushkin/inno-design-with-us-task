@@ -9,7 +9,7 @@
 }
 
 .team__title {
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 700;
   font-size: 30px;
 }
@@ -52,9 +52,9 @@
   font-size: 14px;
   text-align: center;
   line-height: 22px;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 700;
-  color: rgba(0, 0, 0, 1);
+  color: var(--color-text-dark);
   letter-spacing: 0;
   white-space: nowrap;
 }
@@ -64,7 +64,7 @@
   color: rgba(139, 139, 139, 1);
   text-align: center;
   line-height: 22px;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-size: 14px;
   letter-spacing: 0;
 }

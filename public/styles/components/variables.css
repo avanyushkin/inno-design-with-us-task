@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #54bd95;
+  --color-primary-hover: #45a882;
+  --color-secondary: #161c28;
+  --color-light-bg: #e8f3f1;
+  --color-dark-bg: rgba(22, 28, 40, 1);
+  
+  --color-text-primary: #191a15;
+  --color-text-secondary: #1a1a1a;
+  --color-text-dark: #353535;
+  --color-text-gray: #979797;
+  --color-text-placeholder: rgba(195, 195, 195, 0.7);
+
+ --font-family-inter: "Inter", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}

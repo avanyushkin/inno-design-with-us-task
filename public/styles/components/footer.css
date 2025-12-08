@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background-color: rgba(22, 28, 40, 1);
+  background-color: var(--color-dark-bg);
   padding: 56px 64px;
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@
 }
 
 .footer__title {
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 600;
   font-size: 32px;
   color: #fff;
@@ -44,7 +44,7 @@
 
 .footer__heading {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family-inter);
   font-weight: 600;
   font-size: 16px;
 }
@@ -57,14 +57,14 @@
 
 .footer__label {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family-inter);
   font-weight: 600;
   font-size: 14px;
 }
 
 .footer__text {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family-inter);
   font-size: 14px;
 }
 
@@ -76,7 +76,7 @@
 
 .footer__link {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family-inter);
   font-size: 14px;
   transition: opacity 0.3s ease;
 }
