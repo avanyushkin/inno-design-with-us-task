@@ -7,6 +7,10 @@
   background-color: var(--color-light-bg);
 }
 
+.design-with-us__totalcontent {
+    max-width: 800px;
+}
+
 .design-with-us__content {
   display: flex;
   flex-direction: column;

@@ -1,5 +1,8 @@
-@import './components/header.css';
 @import './components/globals.css';
+
+@import './components/variables.css';
+
+@import './components/header.css';
 @import './components/design-with-us.css';
 @import './components/hero.css';
 @import './components/support.css';
@@ -8,4 +11,3 @@
 @import './components/team.css';
 @import './components/contact.css';
 @import './components/footer.css';
-@import './components/variables.css';
