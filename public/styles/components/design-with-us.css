@@ -1,13 +1,17 @@
-.design-with-us-section {
+.design-with-us {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 60px 20px;
   width: 100%;
-  background-color: #e8f3f1;
+  background-color: var(--color-light-bg);
 }
 
-.design-with-us-content {
+.design-with-us__totalcontent {
+    max-width: 800px;
+}
+
+.design-with-us__content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,35 +19,35 @@
   width: 100%;
 }
 
-.design-with-us-text {
+.design-with-us__text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 16px;
   width: 100%;
 }
 
-.design-with-us-title {
-  font-family: "Inter", Helvetica;
+.design-with-us__title {
+  font-family: var(--font-family-inter);
   font-weight: 900;
-  color: rgba(25, 26, 21, 1);
+  color: var(--color-text-primary);
   font-size: 40px;
   letter-spacing: -1px;
   line-height: 1.1;
   text-transform: uppercase;
 }
 
-.design-with-us-description {
-  font-family: "Inter", Helvetica;
+.design-with-us__description {
+  font-family: var(--font-family-inter);
   font-weight: 400;
-  color: #1a1a1a;
+  color: var(--color-text-secondary);
   font-size: 14px;
   letter-spacing: 0;
   line-height: 1.6;
   max-width: 100%;
 }
 
-.design-with-us-image {
+.design-with-us__image {
   position: relative;
   width: 100%;
   max-width: 350px;
@@ -53,202 +57,231 @@
   justify-content: center;
 }
 
-.main-image {
+.design-with-us__main-image {
   width: 100%;
   height: auto;
   position: relative;
   z-index: 1;
 }
 
-.icon {
+.design-with-us__icon {
   position: absolute;
   width: auto;
   height: auto;
 }
 
-.icon-lightning {
+.design-with-us__icon--lightning {
   top: 15%;
-  left: 5%;
+  left: 0;
   width: 50px;
-  z-index: 2;
+  z-index: 3;
+  transform: translateX(-25%);
 }
 
-.icon-chart {
+.design-with-us__icon--chart {
   top: 5%;
-  right: 10%;
+  right: 0;
   width: 45px;
-  z-index: 2;
+  z-index: 3;
+  transform: translateX(25%);
 }
 
-.icon-cactus {
+.design-with-us__icon--cactus {
   bottom: 20%;
-  right: 5%;
+  right: 0;
   width: 60px;
-  z-index: 2;
+  z-index: 3;
+  transform: translateX(20%);
 }
 
-.icon-palette {
-  bottom: 10%;
+.design-with-us__icon--palette {
+  bottom: 0;
   right: 0;
   width: 50px;
-  z-index: 2;
+  z-index: 3;
+  transform: translateY(25%);
 }
 
 @media (min-width: 768px) {
-  .design-with-us-section {
+  .design-with-us {
     padding: 80px 40px;
   }
 
-  .design-with-us-content {
+  .design-with-us__content {
     flex-direction: row;
     gap: 50px;
     align-items: center;
     max-width: 100%;
   }
 
-  .design-with-us-text {
+  .design-with-us__text {
     width: 50%;
   }
 
-  .design-with-us-title {
+  .design-with-us__title {
     font-size: 56px;
     letter-spacing: -1.5px;
   }
 
-  .design-with-us-description {
+  .design-with-us__description {
     font-size: 15px;
     line-height: 1.6;
   }
 
-  .design-with-us-image {
+  .design-with-us__image {
     width: 50%;
     max-width: 450px;
   }
 
-  .icon-lightning {
+  .design-with-us__icon--lightning {
     width: 60px;
+    left: -10px;
+    transform: translateX(-30%);
   }
 
-  .icon-chart {
+  .design-with-us__icon--chart {
     width: 50px;
+    right: -10px;
+    transform: translateX(30%);
   }
 
-  .icon-cactus {
+  .design-with-us__icon--cactus {
     width: 70px;
+    right: -10px;
+    transform: translateX(25%);
   }
 
-  .icon-palette {
+  .design-with-us__icon--palette {
     width: 55px;
+    bottom: -10px;
+    transform: translateY(30%);
   }
 }
 
 @media (min-width: 1024px) {
-  .design-with-us-section {
+  .design-with-us {
     padding: 100px 80px;
   }
 
-  .design-with-us-content {
+  .design-with-us__content {
     gap: 70px;
     max-width: 100%;
   }
 
-  .design-with-us-text {
+  .design-with-us__text {
     width: 48%;
   }
 
-  .design-with-us-title {
+  .design-with-us__title {
     font-size: 68px;
     letter-spacing: -2px;
   }
 
-  .design-with-us-description {
+  .design-with-us__description {
     font-size: 16px;
     line-height: 1.6;
     max-width: 480px;
   }
 
-  .design-with-us-image {
+  .design-with-us__image {
     width: 52%;
     max-width: 520px;
   }
 
-  .icon-lightning {
+  .design-with-us__icon--lightning {
     width: 65px;
+    left: -15px;
+    transform: translateX(-35%);
   }
 
-  .icon-chart {
+  .design-with-us__icon--chart {
     width: 55px;
+    right: -15px;
+    transform: translateX(35%);
   }
 
-  .icon-cactus {
+  .design-with-us__icon--cactus {
     width: 75px;
+    right: -15px;
+    transform: translateX(30%);
   }
 
-  .icon-palette {
+  .design-with-us__icon--palette {
     width: 60px;
+    bottom: -15px;
+    transform: translateY(35%);
   }
 }
 
 @media (min-width: 1440px) {
-  .design-with-us-section {
+  .design-with-us {
     padding: 120px 156px;
   }
 
-  .design-with-us-content {
+  .design-with-us__content {
     width: 1120px;
     margin: 0 auto;
     gap: 100px;
   }
 
-  .design-with-us-text {
+  .design-with-us__text {
     width: 480px;
     flex-shrink: 0;
+    gap: 16px;
   }
 
-  .design-with-us-title {
+  .design-with-us__title {
     font-size: 70px;
     font-weight: 900;
     letter-spacing: -2px;
     line-height: 1.00;
   }
 
-  .design-with-us-description {
+  .design-with-us__description {
     font-size: 18px;
     line-height: 30px;
     max-width: 460px;
   }
 
-  .design-with-us-image {
+  .design-with-us__image {
     width: 408px;
     height: 526px;
     max-width: 408px;
     flex-shrink: 0;
   }
 
-  .icon-lightning {
+  .design-with-us__icon--lightning {
     top: 15%;
-    left: 5%;
+    left: -20px;
     width: 50px;
     height: 50px;
+    z-index: 3;
+    transform: translateX(-40%);
   }
 
-  .icon-chart {
+  .design-with-us__icon--chart {
     top: 5%;
-    right: 10%;
+    right: -20px;
     width: 60px;
+    z-index: 3;
+    transform: translateX(40%);
   }
 
-  .icon-cactus {
+  .design-with-us__icon--cactus {
     bottom: 20%;
-    right: 5%;
+    right: -20px;
     width: 70px;
     height: 195px;
+    z-index: 3;
+    transform: translateX(35%);
   }
 
-  .icon-palette {
-    bottom: 10%;
+  .design-with-us__icon--palette {
+    bottom: -20px;
     right: 0;
     width: 50px;
     height: 50px;
+    z-index: 3;
+    transform: translateY(40%);
   }
 }

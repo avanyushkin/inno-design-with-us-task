@@ -1,25 +1,25 @@
 .footer {
   width: 100%;
-  background-color: rgba(22, 28, 40, 1);
+  background-color: var(--color-dark-bg);
   padding: 56px 64px;
   display: flex;
   justify-content: center;
 }
 
-.footer-content {
+.footer__content {
   width: 1127px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.footer-column {
+.footer__column {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.footer-column:nth-child(1) {
+.footer__column--main {
   width: 513px;
   display: flex;
   flex-direction: row;
@@ -27,78 +27,70 @@
   align-items: flex-start;
 }
 
-.footer-column:nth-child(2) {
-  width: 217px;
-}
-
-.footer-column:nth-child(3) {
-  width: 157px;
-}
-
-.footer-title {
-  font-family: "Inter", Helvetica;
+.footer__title {
+  font-family: var(--font-family-inter);
   font-weight: 600;
   font-size: 32px;
   color: #fff;
   min-width: 200px;
 }
 
-.footer-info {
+.footer__info {
   display: flex;
   flex-direction: column;
   gap: 24px;
   flex: 1;
 }
 
-.footer-heading {
+.footer__heading {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family-inter);
   font-weight: 600;
   font-size: 16px;
 }
 
-.footer-detail {
+.footer__detail {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.footer-label {
+.footer__label {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family-inter);
   font-weight: 600;
   font-size: 14px;
 }
 
-.footer-text {
+.footer__text {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family-inter);
   font-size: 14px;
 }
 
-.footer-nav {
+.footer__nav {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.footer-link {
+.footer__link {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family-inter);
   font-size: 14px;
   transition: opacity 0.3s ease;
 }
 
-.footer-link:hover {
+.footer__link:hover {
   opacity: 0.7;
 }
 
-.footer-social {
+.footer__social {
   display: flex;
   gap: 12px;
 }
 
-.social-link img {
+.footer__social-link img {
   width: 24px;
   height: 24px;
 }
@@ -107,7 +99,7 @@
   .footer {
     padding: 40px 20px;
   }
-  .footer-column {
+  .footer__column {
     gap: 24px;
   }
 }
@@ -116,18 +108,18 @@
   .footer {
     padding: 48px 40px;
   }
-  .footer-content {
+  .footer__content {
     flex-direction: column;
     gap: 60px;
     width: 100%;
   }
-  .footer-column {
+  .footer__column {
     width: 100%;
   }
-  .footer-column:nth-child(1) {
+  .footer__column--main {
     flex-direction: column;
   }
-  .footer-title {
+  .footer__title {
     min-width: auto;
   }
 }

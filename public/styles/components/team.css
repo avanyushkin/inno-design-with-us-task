@@ -1,4 +1,4 @@
-.team-section {
+.team {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -8,7 +8,13 @@
   padding: 40px 20px;
 }
 
-.team-grid {
+.team__title {
+  font-family: var(--font-family-inter);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.team__grid {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +23,7 @@
   width: 100%;
 }
 
-.team-member {
+.team__member {
   display: flex;
   width: 100%;
   max-width: 280px;
@@ -27,7 +33,7 @@
   gap: 16px;
 }
 
-.member-avatar {
+.team__avatar {
   width: 120px;
   height: 120px;
   border-radius: 100px;
@@ -35,51 +41,51 @@
   background-position: 50% 50%;
 }
 
-.member-info {
+.team__member-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
-.member-name {
+.team__member-name {
   font-size: 14px;
   text-align: center;
   line-height: 22px;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-weight: 700;
-  color: rgba(0, 0, 0, 1);
+  color: var(--color-text-dark);
   letter-spacing: 0;
   white-space: nowrap;
 }
 
-.member-role {
+.team__member-role {
   font-weight: 400;
   color: rgba(139, 139, 139, 1);
   text-align: center;
   line-height: 22px;
-  font-family: "Inter", Helvetica;
+  font-family: var(--font-family-inter);
   font-size: 14px;
   letter-spacing: 0;
 }
 
 @media (min-width: 768px) {
-  .team-section {
+  .team {
     padding: 60px 40px;
     gap: 32px;
   }
 
-  .team-grid {
+  .team__grid {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
   }
 
-  .team-member {
+  .team__member {
     width: calc(50% - 16px);
   }
 
-  .member-avatar {
+  .team__avatar {
     width: 140px;
     height: 140px;
   }
@@ -92,20 +98,20 @@
 }
 
 @media (min-width: 1024px) {
-  .team-section {
+  .team {
     padding: 70px 80px;
     gap: 36px;
   }
 
-  .team-grid {
+  .team__grid {
     gap: 36px;
   }
 
-  .team-member {
+  .team__member {
     width: calc(33.333% - 24px);
   }
 
-  .member-avatar {
+  .team__avatar {
     width: 145px;
     height: 145px;
   }
@@ -118,34 +124,34 @@
 }
 
 @media (min-width: 1440px) {
-  .team-section {
+  .team {
     padding: 80px 156px;
     gap: 40px;
   }
 
-  .team-grid {
+  .team__grid {
     max-width: 1128px;
     margin: 0 auto;
     gap: 40px;
   }
 
-  .team-member {
+  .team__member {
     width: 349px;
   }
 
-  .member-avatar {
+  .team__avatar {
     width: 150px;
     height: 150px;
   }
 
-  .member-name {
+  .team__member-name {
     width: 115px;
     height: 27px;
     font-size: 16px;
     line-height: 160%;
   }
 
-  .member-role {
+  .team__member-role {
     width: 115px;
     height: 27px;
     font-size: 16px;

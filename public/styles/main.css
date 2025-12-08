@@ -1,5 +1,8 @@
-@import './components/header.css';
 @import './components/globals.css';
+
+@import './components/variables.css';
+
+@import './components/header.css';
 @import './components/design-with-us.css';
 @import './components/hero.css';
 @import './components/support.css';
