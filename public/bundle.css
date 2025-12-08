@@ -437,7 +437,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 16px;
   width: 100%;
 }
 
@@ -486,30 +486,34 @@
 
 .design-with-us__icon--lightning {
   top: 15%;
-  left: 5%;
+  left: 0;
   width: 50px;
-  z-index: 2;
+  z-index: 3;
+  transform: translateX(-25%);
 }
 
 .design-with-us__icon--chart {
   top: 5%;
-  right: 10%;
+  right: 0;
   width: 45px;
-  z-index: 2;
+  z-index: 3;
+  transform: translateX(25%);
 }
 
 .design-with-us__icon--cactus {
   bottom: 20%;
-  right: 5%;
+  right: 0;
   width: 60px;
-  z-index: 2;
+  z-index: 3;
+  transform: translateX(20%);
 }
 
 .design-with-us__icon--palette {
-  bottom: 10%;
+  bottom: 0;
   right: 0;
   width: 50px;
-  z-index: 2;
+  z-index: 3;
+  transform: translateY(25%);
 }
 
 @media (min-width: 768px) {
@@ -545,18 +549,26 @@
 
   .design-with-us__icon--lightning {
     width: 60px;
+    left: -10px;
+    transform: translateX(-30%);
   }
 
   .design-with-us__icon--chart {
     width: 50px;
+    right: -10px;
+    transform: translateX(30%);
   }
 
   .design-with-us__icon--cactus {
     width: 70px;
+    right: -10px;
+    transform: translateX(25%);
   }
 
   .design-with-us__icon--palette {
     width: 55px;
+    bottom: -10px;
+    transform: translateY(30%);
   }
 }
 
@@ -592,18 +604,26 @@
 
   .design-with-us__icon--lightning {
     width: 65px;
+    left: -15px;
+    transform: translateX(-35%);
   }
 
   .design-with-us__icon--chart {
     width: 55px;
+    right: -15px;
+    transform: translateX(35%);
   }
 
   .design-with-us__icon--cactus {
     width: 75px;
+    right: -15px;
+    transform: translateX(30%);
   }
 
   .design-with-us__icon--palette {
     width: 60px;
+    bottom: -15px;
+    transform: translateY(35%);
   }
 }
 
@@ -621,6 +641,7 @@
   .design-with-us__text {
     width: 480px;
     flex-shrink: 0;
+    gap: 16px;
   }
 
   .design-with-us__title {
@@ -645,29 +666,37 @@
 
   .design-with-us__icon--lightning {
     top: 15%;
-    left: 5%;
+    left: -20px;
     width: 50px;
     height: 50px;
+    z-index: 3;
+    transform: translateX(-40%);
   }
 
   .design-with-us__icon--chart {
     top: 5%;
-    right: 10%;
+    right: -20px;
     width: 60px;
+    z-index: 3;
+    transform: translateX(40%);
   }
 
   .design-with-us__icon--cactus {
     bottom: 20%;
-    right: 5%;
+    right: -20px;
     width: 70px;
     height: 195px;
+    z-index: 3;
+    transform: translateX(35%);
   }
 
   .design-with-us__icon--palette {
-    bottom: 10%;
+    bottom: -20px;
     right: 0;
     width: 50px;
     height: 50px;
+    z-index: 3;
+    transform: translateY(40%);
   }
 }
 .footer {
